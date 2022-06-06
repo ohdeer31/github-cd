@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.11
         with:
-          heroku_api_key: ${{secrets.f652b091-5b00-4be8-9a9a-ebc8575d7daf}}
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "shielded-gorge-13239"
           heroku_email: "kevin92142@gmail.com"
